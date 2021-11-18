@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    113deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(154, 82, 182, 1) 48%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+/* MENU */
+
+header {
+  background: rgb(63, 196, 251);
+  background: linear-gradient(
+    113deg,
+    rgba(63, 196, 251, 1) 0%,
+    rgba(178, 82, 182, 1) 48%,
+    rgba(77, 252, 70, 1) 100%
+  );
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 55px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu {
+  margin-right: 555px;
+}
+
+li {
+  display: inline;
+}
+
+social-media {
+  background-color: red;
+}
+
+/* MENU */
+
+/* Textos */
+
+a {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+  margin: 15px;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+}
+
+.link :hover {
+  color: rgb(70, 179, 20);
+}
+
+a:hover {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  transition: 2s;
+}
+
+h1 {
+  margin-top: 55px;
+  margin-left: 55px;
+  font-size: 52px;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #161412;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "MonteCarlo", cursive;
+}
+
+h3 {
+  color: #fd9b08;
+  font-size: 14px;
+}
+
+h4 {
+  color: #e4a933;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h5 {
+  color: rgb(46, 12, 12);
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 25px;
+  margin-right: 700px;
+}
+
+/* IMAGENS */
+.img {
+  max-width: 100%;
+  display: block;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.bloco img {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.bloco img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+/* IMAGENS */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 3000px;
+  margin: 0 auto;
+}
+
+.flex > div {
+  flex: 1 1 70px;
+  margin: 70px;
+}
+
+/* Rodape */
+
+footer {
+  background: rgb(213, 10, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(213, 10, 75, 1) 0%,
+    rgba(99, 9, 121, 1) 43%
+  );
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 506px;
+}
+
+.box {
+  background: rgb(200, 212, 183);
+  background: linear-gradient(
+    90deg,
+    rgb(168, 6, 141) 0%,
+    rgb(199, 132, 216) 43%
+  );
+  width: 255px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.next {
+  align-items: center;
+  text-align: center;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-around;
+}
